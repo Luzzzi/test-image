@@ -7,10 +7,10 @@ export default function Home() {
     <main className="w-full">
       <div className="flex flex-row">
         <div className="w-full h-auto bg-blue-400">
-          <Image src={Frago} alt="" width={416} height={740} />
+          <Image src={Frago} alt="" />
         </div>
         <div className="w-full h-auto bg-red-500">
-          <Image src={Eyck} alt="" width={416} height={740} />
+          <Image src={Eyck} alt="" />
         </div>
       </div>
     </main>
