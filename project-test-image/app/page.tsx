@@ -4,13 +4,13 @@ import Eyck from "./VanEyck.jpg";
 
 export default function Home() {
   return (
-    <main className="flex min-h-screen flex-col items-center justify-between p-24">
-      <div className="flex justify-between overflow-x-auto">
-        <div className="w-full h-auto relative rounded-md overflow-hidden">
-          <Image src={Frago} alt="" fill={true} className="objet-cover" />
+    <main className="w-full">
+      <div className="flex flex-row">
+        <div className="w-[416px] h-[740px] bg-blue-400">
+          <Image src={Frago} alt="" className="object-cover" />
         </div>
-        <div className="w-full h-auto relative rounded-md overflow-hidden">
-          <Image src={Eyck} alt="" fill={true} className="objet-cover" />
+        <div className="w-[416px] h-[740px] bg-red-500">
+          <Image src={Eyck} alt="" className="w-full h-auto object-cover" />
         </div>
       </div>
     </main>
